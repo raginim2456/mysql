@@ -1,0 +1,17 @@
+pull images from the docker hub of mysql
+
+and run
+
+docker run -e MYSQL_ROOT_PASSWORD=root mysql
+docker exec -it <images id> bash
+
+ mysql -u root -p
+Enter password:root
+to check mysql
+
+show databases;
+exit
+exit
+
+
+
